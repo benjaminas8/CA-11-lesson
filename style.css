@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(228, 220, 220);
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+header img {
+  width: 200px;
+  align-self: center;
+  padding: 2rem;
+}
+
+header h2 {
+  color: white;
+}
+
+header nav {
+  background-color: rgb(186, 186, 12);
+}
+
+header ul {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+  color: white;
+  list-style: none;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border: 2px solid red;
+}
+
+th,
+td {
+  text-align: center;
+}
+
+.info {
+  background-color: white;
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-button {
+  background-color: red;
+  width: 100px;
+  align-self: center;
+  border-radius: 10px;
+  border-color: white;
+  border-style: none;
+  width: 10rem;
+  height: 2rem;
+}
+
+.about-button a {
+  color: white;
+}
+
+.table {
+  background-color: rgb(9, 9, 139);
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.contacts-button {
+  background-color: white;
+  width: 100px;
+  align-self: center;
+  border-radius: 10px;
+  border-color: white;
+  border-style: none;
+  width: 10rem;
+  height: 2rem;
+}
+
+footer {
+  padding: 2rem 0;
+  background-color: rgb(186, 186, 12);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
